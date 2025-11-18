@@ -10,7 +10,7 @@ def line():
     Y2 = A * X2 + B
 
     # Cálculo de distancia
-    distancia = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5
+    distancia = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2)**0.5
 
     # Resultados finales
     print(f"El coeficiente A de su ecuación de la recta es: {A}")
@@ -28,6 +28,3 @@ def line():
     print("")
     print(f"La distancia entre ellos es: {distancia}")
 
-
-if __name__ == "__main__":
-    line()
